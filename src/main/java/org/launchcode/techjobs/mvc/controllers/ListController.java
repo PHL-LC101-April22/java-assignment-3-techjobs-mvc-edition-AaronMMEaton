@@ -33,6 +33,7 @@ public class ListController {
         tableChoices.put("location", JobData.getAllLocations());
         tableChoices.put("positionType", JobData.getAllPositionTypes());
         tableChoices.put("coreCompetency", JobData.getAllCoreCompetency());
+
     }
 
     @GetMapping(value = "")
@@ -62,3 +63,6 @@ public class ListController {
         return "list-jobs";
     }
 }
+
+
+
